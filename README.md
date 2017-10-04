@@ -7,6 +7,6 @@
 現状，bmpfile.oを作らなければならない状態だが，提供する予定は未定．
 
 ```
-gcc make_thumbnail.c bmpfile.o -o make_thumbnail.out
+gcc make_thumbnail.c bmpfile.o -o make_thumbnail -lm -no-pie
 ./make_thumbnail.out in.bmp out.bmp
 ```
